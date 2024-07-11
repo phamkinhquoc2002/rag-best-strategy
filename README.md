@@ -6,6 +6,7 @@ Each RAG strategy was evaluated by Trulens Evaluation Benchmarks: RAG Triad. The
 ![rag_triad](rag_evaluation.jpg)
 
 # Searching for Best Practices in Retrieval-Augmented Generation
+![searching_paper](quick_read.jpg)
 ```
 @inproceedings{Wang2024SearchingFB,
   title={Searching for Best Practices in Retrieval-Augmented Generation},
