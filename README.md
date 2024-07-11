@@ -6,3 +6,12 @@ Each RAG strategy was evaluated by Trulens Evaluation Benchmarks: RAG Triad. The
 ![rag_triad](rag_evaluation.jpg)
 
 ```
+# Searching for Best Practices in Retrieval-Augmented Generation
+```
+@inproceedings{Wang2024SearchingFB,
+  title={Searching for Best Practices in Retrieval-Augmented Generation},
+  author={Xiaohua Wang and Zhenghua Wang and Xuan Gao and Feiran Zhang and Yixin Wu and Zhibo Xu and Tianyuan Shi and Zhengyuan Wang and Shizheng Li and Qi Qian and Ruicheng Yin and Changze Lv and Xiaoqing Zheng and Xuanjing Huang},
+  year={2024},
+  url={https://api.semanticscholar.org/CorpusID:270870251}
+}
+```
