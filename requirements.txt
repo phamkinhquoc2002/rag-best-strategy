@@ -1,4 +1,11 @@
 llama-index
 llama-index-llms-ollama
 llama-index-vector-stores-faiss
+llama-index-embeddings-huggingface
+llama-index-postprocessor-cohere-rerank
+llama-index-retrievers-bm25
+llama-index-llms-gemini
+llama-index-llms-ollama
+faiss-cpu
 trulens_eval
+google-generativeai
