@@ -1,6 +1,6 @@
 # Experiment: Testing Different RAG Strategies
 Inspired by the paper: "Searching for Best Practices in Retrieval-Augmented Generation" by Wang et al. This repository is dedicated to search for the best RAG strategy on a tight budget.
-# Evaluation Benchmark
+# Evaluation Strategy
 Each RAG strategy was evaluated by Trulens Evaluation Benchmarks: RAG Triad. The RAG triad is made up of 3 evaluations: context relevance, groundedness and answer relevance. Satisfactory evaluations on each provides us confidence that our LLM app is free from hallucination.
 
 ![rag_triad](rag_evaluation.jpg)
