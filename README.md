@@ -20,6 +20,7 @@ GOOGLE_API_KEY: for google models
 OPENAI_API_KEY: for openai models
 HF_TOKEN: for open-sourced models
 ```
+### Choose the data and RAG strategy
 4. Put the documents that you want to query into a documents folder
 5. Play around with the code in test.py:
    Example using gemini-pro and BAAI/bge-small-en-v1.5:
