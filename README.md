@@ -1,11 +1,32 @@
 # Experiment: Testing Different RAG Strategies
 Inspired by the paper: "Searching for Best Practices in Retrieval-Augmented Generation" by Wang et al. This repository is dedicated to search for the best RAG strategy on a tight budget.
-# Evaluation Strategy
+
+## How to run it locally
+You can use the repository on your local laptop to play around with different RAG pipelines.
+
+### Installation and Setup
+1. Create a virtual environment
+```
+python -m venv venv
+./venv/Scripts/Activate
+```
+2. Install the requirements:
+ ```
+pip install -r requirements.txt
+```
+3. Specify the different API keys in .env:
+ ```
+GOOGLE_API_KEY: for google models
+OPENAI_API_KEY: for openai models
+HF_TOKEN: for open-sourced models
+```
+
+## Evaluation Strategy
 Each RAG strategy was evaluated by Trulens Evaluation Benchmarks: RAG Triad. The RAG triad is made up of 3 evaluations: context relevance, groundedness and answer relevance. Satisfactory evaluations on each provides us confidence that our LLM app is free from hallucination.
 
 ![rag_triad](rag_evaluation.jpg)
 
-# Searching for Best Practices in Retrieval-Augmented Generation
+## Searching for Best Practices in Retrieval-Augmented Generation
 <div align="center" style="margin-top: 20px; margin-bottom: 20px; padding: 10px; background-color: #f0f0f0; border-radius: 5px;">
   <img src="quick_read.jpg" alt="Paper Description">
 </div>
